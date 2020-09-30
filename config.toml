@@ -5,7 +5,7 @@ languageCode = "en-us"
 theme = "ramium"
 
 title = "ShihCheng Tu"
-disqusShortname = ""
+disqusShortname = "toastcheng"
 googleAnalytics = "UA-168042428-1"
 summaryLength = 10
 pluralizeListTitles = false
