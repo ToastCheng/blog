@@ -8,7 +8,6 @@ url: "/author/"
 image: "https://avatars1.githubusercontent.com/u/10098539?s=460&u=500ba6c81b8dad7fa59e5221ae10df6e77529ccd&v=4"
 ---
 
-## Intro
 Hi, I am ShihCheng, a software engineer, a learnaholic.
 
 ## Education
