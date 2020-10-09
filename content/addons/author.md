@@ -85,8 +85,8 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
 ## 4. Achievements
 
 - #### Contributions
-  - https://github.com/golang/go: documentation, example
-  - https://github.com/fangq/mcx: utils 
+  - [golang/go](https://github.com/golang/go): documentation, example
+  - [fangq/mcx](https://github.com/fangq/mcx): utils 
 
 - #### Side Projects
   - https://github.com/toastcheng/ecpay-sdk-go: a SDK of ECPay (third-party payment service) for Go
