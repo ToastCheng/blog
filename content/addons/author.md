@@ -64,11 +64,12 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
   - Monitor:   Firebase Analytics, Crashlytics
 
 - #### Backend
-  - Framework:  NodeJS | Flask + Celery | Gin
-  - Storage:    MySQL | MongoDB | Redis | Minio | Elasticsearch
-  - Task queue: RabbitMQ
-  - Proxy, LB: 	Nginx | Envoy
-  - Protocol:  	Grpc
+  - Framework:    NodeJS | Flask + Celery | Gin
+  - Storage:      MySQL | MongoDB | Redis | Minio | Elasticsearch
+  - Monitor, Log: Stacktrace | fluentd
+  - Task queue:   RabbitMQ
+  - Proxy, LB: 	  Nginx | Envoy
+  - Protocol:  	  Grpc
 
 - #### Infrastructure
   - Container: Docker | Kubernetes | Helm | Skaffold 
