@@ -64,6 +64,7 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
   - Monitor:   Firebase Analytics, Crashlytics
 
 - #### Backend
+  - Framework:  NodeJS | Flask + Celery | Gin
   - Storage:    MySQL | MongoDB | Redis | Minio
   - Proxy, LB: 	Nginx | Envoy
   - Protocol:  	Grpc
