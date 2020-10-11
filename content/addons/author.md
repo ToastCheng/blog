@@ -57,7 +57,7 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
   - JS/TS
 
 - #### Web Development
-  - Framework: VueJS + Vuex
+  - Framework: VueJS | ReactJS
 
 - #### Mobile App
   - Framework: Flutter + BLoC
