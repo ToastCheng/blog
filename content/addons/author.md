@@ -66,7 +66,7 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
 - #### Backend
   - Framework:    NodeJS | Flask + Celery | Gin
   - Storage:      MySQL | MongoDB | Redis | Minio | Elasticsearch
-  - Monitor, Log: Stacktrace | fluentd
+  - Monitor, Log: Stackdriver | fluentd
   - Task queue:   RabbitMQ
   - Proxy, LB: 	  Nginx | Envoy
   - Protocol:  	  Grpc
