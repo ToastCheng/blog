@@ -1,7 +1,7 @@
 ---
-title:  "Torchscript: train in Python, run in C++"
+title:  "Torchscript: Train in Python, run in C++"
 date:   2020-01-09T13:32:56+0800
-tags: [torchscript, pytorch, c++]
+tags: [torchscript, pytorch, c++, machine learning]
 categories: technique
 ---
 This article is mainly about serialize a pytorch model, and load it into C++.
