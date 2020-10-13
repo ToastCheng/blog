@@ -1,6 +1,6 @@
 ---
 title:  "Goroutine: process, thread, goroutine"
-date:   2020-10-13T00:43:00+0800
+date:   2000-10-13T00:43:00+0800
 tags: [golang, goroutine, backend]
 categories: technique
 ---
