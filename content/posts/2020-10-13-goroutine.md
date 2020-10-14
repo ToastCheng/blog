@@ -11,7 +11,7 @@ As programming in Go, this question occasionally comes up to my mind. After some
 
 ### Basic OS knowledge: Process, Thread, Time slicing
 
-In OS's aspect, it's all about scheduling. OS has the power to decides how to utilize CPU. Naturally there will be a lot of program running at the same time. Such as browser, PDF reader, Spotify, and a lot of background process. When you ask the OS to run a program, a process will be created for you.
+In OS's aspect, it's all about scheduling. OS has the power to decides how to allots CPU to processes. Naturally there will be a lot of processes running at the same time in your computer. When you ask the OS to run a program, a process will be created for you. Such as browser, PDF reader, Spotify, and a lot of background processes. 
 
 `// TODO: figure here`
 
@@ -27,7 +27,28 @@ So, it's basically time slicing again, but in different level.
 
 `// TODO: figure here`
 
+A thread is lighter than a process, by lighter, it means it is faster to create, to terminate, and it is more space efficient. In other word, you can have things done more efficiently.
+
+What if there is something that is more lighter than a thread?
+
 ### Goroutine
-Now, what goroutine does is to push this time slicing concept furthur.
+Now, what goroutine does is to push this time slicing concept further.
+Before jumping into it, there is some concept worth to take a look.
+
+`P`: Processor, (may be logical).
+`M`: Machine, OS thread. 
+`G`: Goroutine.
+
+When does context switch take place?
+1. Keyword `go`
+2. Garbage Collection
+3. System call
+4. Blocked by atomic, mutex or channel operation
+
+Net poll
+
+Work stealing
+
+https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch#:~:text=Process%20context%20switching%20involves%20switching%20the%20memory%20address%20space.&text=Thread%20switching%20is%20context%20switching,processes%20is%20just%20process%20switching).
 
 `// TODO: `
