@@ -92,8 +92,8 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
   - [fangq/mcx](https://github.com/fangq/mcx): utils 
 
 - #### Side Projects
-  - https://github.com/toastcheng/ecpay-sdk-go: a SDK of ECPay (third-party payment service) for Go
-  - https://github.com/toastcheng/dicomweb-go: a DICOMweb (medical image archive server) client for Go
+  - [ecpay-sdk-go](https://github.com/toastcheng/ecpay-sdk-go): a SDK of ECPay (third-party payment service) for Go
+  - [dicomweb-go](https://github.com/toastcheng/dicomweb-go): a DICOMweb (medical image archive server) client for Go
 
 - #### Publications
   - [Published paper in FIO+LS 2018 (Washington, D.C.)](https://www.osapublishing.org/abstract.cfm?uri=LS-2018-JTu3A.107)

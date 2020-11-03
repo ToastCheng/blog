@@ -10,7 +10,6 @@ Goroutine is a interesting concept, but how does it relate to the concept of thr
 As programming in Go, this question occasionally comes up to my mind. After some research, I decide to write it down :).
 
 ### Basic OS knowledge: Process, Thread, Time slicing
-
 In OS's aspect, it's all about scheduling. OS has the power to decides how to allots CPU to processes. Naturally there will be a lot of processes running at the same time in your computer. When you ask the OS to run a program, a process will be created for you. Such as browser, PDF reader, Spotify, and a lot of background processes. 
 
 `// TODO: figure here`
