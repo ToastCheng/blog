@@ -31,7 +31,7 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
 
   ###### AUG 2019 - Present
 
-  - Led a 4-person Flutter App team, designed application architecture, API schema, and native platform (Android/iOS) communications.
+  - Led a 4-person medical device app team based on Flutter, designed application architecture, API schema, and native platform (Android/iOS) communications.
   
   - Designed and implemented a medical AI inference system including backend and frontend, integrated into the DICOM system of a hospital seamlessly.
   
