@@ -31,8 +31,13 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
 
   ###### AUG 2019 - Present
 
-  - Led an Flutter App team, designed application architecture, API schema, and native platform (Android/iOS) communications.
-  - Design and implement a medical AI inference system including backend and frontend, integrated into the DICOM system of a hospital seamlessly.
+  - Led a 4-person Flutter App team, designed application architecture, API schema, and native platform (Android/iOS) communications.
+  
+  - Designed and implemented a medical AI inference system including backend and frontend, integrated into the DICOM system of a hospital seamlessly.
+  
+  - Optimized and benchmarked database queries and resource usage for deployments.
+  
+  - Developed a real-time web administration system's frontend with complex hierarchy logic.
 
 - #### Oakda inc., Taipei City, Taiwan
 
@@ -40,8 +45,9 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
 
   ###### JAN 2018 - MAR 2019
 
-  - Successfully developed an investment strategy by implementing specific algorithm (such as DTW).
-  - Collected and analyzed data from different sources using various statistical approaches.
+  - Successfully developed an investment strategy by implementing DTW algorithms.
+
+  - Crawled data from websites and analyzed data using various statistical approaches to provide insights. 
 
 - #### Fortune High Investment Group Co., Ltd., ShenZhen City, China
 
@@ -70,33 +76,16 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
   - Dart
   - JS/TS
 
-- #### Web Development
+- #### Frontend / App Development
 
-  - Framework: VueJS | ReactJS
+  - Web: VueJS | ReactJS
+  - Mobile: Flutter  
 
-- #### Mobile App
+- #### Backend / Infrastructure
 
-  - Framework: Flutter + BLoC
-  - Monitor: Firebase Analytics, Crashlytics
-
-- #### Backend
-
-  - Framework: NodeJS | Flask + Celery | Gin
-  - Storage: MySQL | MongoDB | Redis | Minio | Elasticsearch
-  - Monitor, Log: Stackdriver | fluentd
-  - Task queue: RabbitMQ
-  - Proxy, LB: Nginx | Envoy
-  - Protocol: Grpc
-
-- #### Infrastructure
-
-  - Container: Docker | Kubernetes | Helm | Skaffold
-  - CI: Github action | Drone CI
-
-- #### Cloud Computing (Google Cloud Platform)
-
-  - General: GCE | GKE | Cloud Function
-  - Storage: Cloud SQL | Firestore | Cloud Storage
+  - Container: Docker | Kubernetes | Helm | Skaffold 
+  - CI: 	    Github action | Drone CI
+  - Cloud Provider: GCP
 
 - #### Language
   - Mandarin native speaker
@@ -115,6 +104,7 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
 
   - [ecpay-sdk-go](https://github.com/toastcheng/ecpay-sdk-go): a SDK of ECPay (third-party payment service) for Go
   - [dicomweb-go](https://github.com/toastcheng/dicomweb-go): a DICOMweb (medical image archive server) client for Go
+  - [Memory Toast](https://apps.apple.com/tw/app/%E8%A8%98%E6%86%B6%E5%90%90%E5%8F%B8/id1537934225#?platform=iphone): a customizable flashcard app based on Flutter
 
 - #### Publications
 
