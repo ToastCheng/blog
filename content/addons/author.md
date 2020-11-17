@@ -97,8 +97,8 @@ Hi, I am ShihCheng, a software engineer, a learnaholic.
 
 - #### Contributions
 
-  - [golang/go](https://github.com/golang/go): documentation, example
-  - [fangq/mcx](https://github.com/fangq/mcx): utils
+  - [golang/go](https://github.com/golang/go): document for [release notes](https://go-review.googlesource.com/c/go/+/237857).
+  - [fangq/mcx](https://github.com/fangq/mcx): implement a [python decoder](https://github.com/fangq/mcx/pull/47) for reading the binary file.
 
 - #### Side Projects
 
