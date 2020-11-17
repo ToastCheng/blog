@@ -14,24 +14,24 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
 
-    - name: Hugo setup
-      uses: peaceiris/actions-hugo@v2.4.12
-      with:
-        # The Hugo version to download (if necessary) and use. Example: 0.58.2
-        hugo-version: latest
-        # Download (if necessary) and use Hugo extended version. Example: true
-        extended: false
-    
-    - name: Build pages
-      run: hugo --minify
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v2.4.13
+        with:
+          # The Hugo version to download (if necessary) and use. Example: 0.58.2
+          hugo-version: latest
+          # Download (if necessary) and use Hugo extended version. Example: true
+          extended: false
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        external_repository: toastcheng/toastcheng.github.io
-        publish_branch: master
-        publish_dir: ./public
+      - name: Build pages
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: toastcheng/toastcheng.github.io
+          publish_branch: master
+          publish_dir: ./public
