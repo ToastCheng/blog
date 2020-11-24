@@ -4,7 +4,7 @@ baseURL = "https://toastcheng.github.io"
 languageCode = "en-us"
 theme = "ramium"
 
-title = "ShihCheng Tu"
+title = "ShihCheng Tu, Engineering blog"
 disqusShortname = "toastcheng"
 googleAnalytics = "UA-168042428-1"
 summaryLength = 10
@@ -12,8 +12,8 @@ pluralizeListTitles = false
 enableemoji = true
 
 [params]
-    description = "A description for the meta tag of the site"
-    googleSearch = ""
+    description = "Engineering blog"
+    googleSearch = "Engineering blog"
     adsense = ""
     showDate = true # make false if dont want to show date
     math = false # best to enable this in the front matter of a page
