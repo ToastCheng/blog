@@ -1,6 +1,6 @@
 ---
 title:  "TypeScript: Declaration merging as an extension"
-date:   2000-10-13T00:43:00+0800
+date:   2020-11-24T18:43:00+0800
 tags: [note, typescript, extension, declaration merging, factory pattern]
 categories: technique
 ---
