@@ -4,7 +4,7 @@ baseURL = "https://toastcheng.github.io"
 languageCode = "en-us"
 theme = "ramium"
 
-title = "ShihCheng Tu, Engineering blog"
+title = "ShihCheng Tu"
 disqusShortname = "toastcheng"
 googleAnalytics = "UA-168042428-1"
 summaryLength = 10
