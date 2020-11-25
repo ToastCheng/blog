@@ -18,9 +18,9 @@ Under this kind of development, everything is so handy and so automatic. However
 
 You can imaging that the beautiful automation kubernetes give us happens only after the cluster is created. Before that, you have to have your infrastructure ready. 
 
-And when it comes to multiple environment, such as dev, sta, prod. You have to carefully setup the environment precisely identical. Think about you have multiple environments and as server loading increase/decrease, new product kicks in, you have to maually update the infra. Sounds like a nightmare. Its a labor-intensive work!
+And when it comes to multiple environments, such as dev, sta, prod. You have to carefully setup the environment precisely identical. Think about having multiple environments and as server loading increase/decrease, new product kicks in, you have to maually update the infra. Sounds like a nightmare. Its a labor-intensive work!
 
-Here is where Terraform comes into play.
+This is where [terraform](https://www.terraform.io/) comes into play.
 
 Using terraform, you can have your infrastruture as a code, automate it, reproduce it in a jiffy.
 
@@ -36,13 +36,16 @@ terraform -install-autocomplete
 ```
 
 ### Write config
-Here we are creating a config file that provisions a compute engine in GCP.
+Here we are creating a config file `config.tf` that provisions a compute engine in GCP.
+
+**Note**
+terraform will look at the current directory and find all the files with `.tf` extension. So it is ok to split different block into different file. You can even leverage this behavior by adding some part of the config that contains credential into `.gitignore`.
 
 #### 1. `provider` 
 First you have to specify `google` as a provider in `provider` block. You have to set `project` to your own project, and provides the credential file, or you can specify the file path via environment variable `GOOGLE_APPLICATION_CREDENTIALS` just as other GCP sdk does.
 
-**Notice**
-1. Multiple provider is not allowed. You can have only one provider in a project i.e., a directory, or you will get `Error: Duplicate required providers configuration`.
+**Note**
+1. Multiple providers are not allowed. You can have only one provider in a project i.e., a directory, or you will get `Error: Duplicate required providers configuration`.
 2. Carefully grant your credential. Or you will have terraform to create something it does not have permission to. Such as creating network: `Error: Error creating Network: googleapi: Error 403: Required 'compute.networks.create' permission for 'projects/xxxxx/global/networks/terraform-network', forbidden`.
 
 
@@ -80,11 +83,40 @@ resource "google_compute_instance" "vm_instance" {
 }
 ```
 
+So the full `config.ts` looks like:
+
+```
+provider "google" {
+  version = "3.5.0"
+  project = "{{YOUR GCP PROJECT}}"
+  region  = "us-central1"
+  zone    = "us-central1-c"
+
+  credentials = file("service-account.json")
+}
+
+resource "google_compute_instance" "vm_instance" {
+  name         = "terraform-instance"
+  machine_type = "f1-micro"
+
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-9"
+    }
+  }
+
+  network_interface {
+    # A default network is created for all GCP projects
+    network = "default"
+    access_config {
+    }
+  }
+}
+
+```
+
 Then you are good to go. Run the commands below.
 
-`terraform init` setup the project, downloads the required provider from Terraform Registry.
-`terraform apply` directly provision you need.
-`terraform destroy` cleanup.
 ```bash
 # initialize the project based on config file, it will download the required provider.
 terraform init
@@ -95,6 +127,9 @@ terraform apply
 # cleanup
 terraform destroy
 ```
+`terraform init` setup the project, downloads the required provider from Terraform Registry.
+`terraform apply` directly provision you need.
+`terraform destroy` cleanup.
 
 There are two command worth knowing, 
 `terraform refresh` query the current state of your infrastructure.
