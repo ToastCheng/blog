@@ -31,13 +31,17 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 
   ###### AUG 2019 - Present
 
-  - Led a 4-person medical device app team based on Flutter, designed application architecture, API schema, and native platform (Android/iOS) communications.
+  - Refactor existing NodeJS backend and integrated Typescript to improve  codebase maintainability.
+
+  - Automated infrastructure provisioning in GCP with Terraform, setup complex environments within minutes.
+
+  - Designed and implemented a medical AI inference system including Golang backend and ReactJS frontend with microservice architecture, using Redis Pubsub to buffer the request traffic from limited GPU resources. Finally, integrated into the DICOM system (medical image storage) of the hospital seamlessly.
   
-  - Designed and implemented a medical AI inference system including backend and frontend, integrated into the DICOM system of a hospital seamlessly.
+  - Optimized and benchmarked MongoDB queries and resource usage for deployments.
   
-  - Optimized and benchmarked database queries and resource usage for deployments.
+  - Developed real-time web administration system's frontend using Grpc streaming.
   
-  - Developed a real-time web administration system's frontend with complex hierarchy logic.
+  - Led a 4-person medical device app team based on Flutter, designed application architecture, API schema, and native platform (Android/iOS) communications. Implemented an off-line cache system for synchronizing data between devices and server.
 
 - #### Oakda inc., Taipei City, Taiwan
 
@@ -45,7 +49,7 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 
   ###### JAN 2018 - MAR 2019
 
-  - Successfully developed an investment strategy by implementing DTW algorithms.
+  - Successfully developed an investment strategy by implementing dynamic time warping algorithms, implemented in C++, and import in Python as a C-extension. 
 
   - Crawled data from websites and analyzed data using various statistical approaches to provide insights. 
 
@@ -55,14 +59,13 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 
   ###### JUL 2018 - AUG 2018
 
-  - Designed an ID card recognition application and deployed it to a web server.
+  - Designed an ID card recognition application and deployed it to a Flask web server.
 
 - #### Biomedical Optical Spectroscopy and Imaging Lab, Taipei City, Taiwan
   ###### Research Assistant
   ###### SEP 2017 - AUG 2019
-  - Designed Monte Carlo models for simulating photon movement.
-  - Implemented machine learning models to predict cancer grade.
-  - Utilized parallel programming via CUDA (C++) to facilitate the efficiency of computing.
+  - Designed Monte Carlo models in CUDA/C++ for simulating photon movement.
+  - Implemented machine learning models in Pytorch to predict cancer grade.
 
 ---
 
