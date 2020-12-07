@@ -25,33 +25,36 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 
 ## 2. Experience
 
-- #### HTC inc., New Taipei City, Taiwan
+- #### HTC Inc., New Taipei City, Taiwan
 
-  ###### Software Engineer
+  ###### Software Engineer in DeepQ
 
   ###### AUG 2019 - Present
 
-  - Refactor existing NodeJS backend and integrated Typescript to improve  codebase maintainability.
+  - Designed and implemented a medical AI inference system:
+    - Built Golang backend and ReactJS frontend with Kubernetes microservice architecture.
+    - Utilized Redis Pubsub to buffer the request traffic from limited GPU resources. 
+    - Integrated the product into the existing DICOM system (medical image storage) seamlessly.
+
+  - Refactor existing NodeJS backend and integrated TypeScript to improve the maintainability of the codebase.
 
   - Automated infrastructure provisioning in GCP with Terraform, setup complex environments within minutes.
 
-  - Designed and implemented a medical AI inference system including Golang backend and ReactJS frontend with microservice architecture, using Redis Pubsub to buffer the request traffic from limited GPU resources. Finally, integrated into the DICOM system (medical image storage) of the hospital seamlessly.
-  
   - Optimized and benchmarked MongoDB queries and resource usage for deployments.
   
-  - Developed real-time web administration system's frontend using Grpc streaming.
+  - Developed real-time web administration system's frontend using gRPC streaming.
   
   - Led a 4-person medical device app team based on Flutter, designed application architecture, API schema, and native platform (Android/iOS) communications. Implemented an off-line cache system for synchronizing data between devices and server.
 
-- #### Oakda inc., Taipei City, Taiwan
+- #### Oakda Inc., Taipei City, Taiwan
 
-  ###### Data Scientist Internship
+  ###### Data Scientist Intern
 
   ###### JAN 2018 - MAR 2019
 
-  - Successfully developed an investment strategy by implementing dynamic time warping algorithms, implemented in C++, and import in Python as a C-extension. 
+  - Successfully developed an investment strategy by implementing dynamic time warping algorithms in C++, and imported in Python as a C-extension. 
 
-  - Crawled data from websites and analyzed data using various statistical approaches to provide insights. 
+  - Crawled data from websites and analyzed it using various statistical approaches to provide insights. 
 
 - #### Fortune High Investment Group Co., Ltd., ShenZhen City, China
 
@@ -87,7 +90,7 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 - #### Backend / Infrastructure
 
   - Container: Docker | Kubernetes | Helm | Skaffold 
-  - CI: 	    Github action | Drone CI
+  - CI: Github action | Drone CI
   - Cloud Provider: GCP
 
 - #### Language
