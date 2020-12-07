@@ -25,29 +25,36 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 
 ## 2. Experience
 
-- #### HTC inc., New Taipei City, Taiwan
+- #### HTC Inc., New Taipei City, Taiwan
 
-  ###### Software Engineer
+  ###### Software Engineer in DeepQ
 
   ###### AUG 2019 - Present
 
-  - Led a 4-person medical device app team based on Flutter, designed application architecture, API schema, and native platform (Android/iOS) communications.
-  
-  - Designed and implemented a medical AI inference system including backend and frontend, integrated into the DICOM system of a hospital seamlessly.
-  
-  - Optimized and benchmarked database queries and resource usage for deployments.
-  
-  - Developed a real-time web administration system's frontend with complex hierarchy logic.
+  - Designed and implemented a medical AI inference system:
+    - Built Golang backend and ReactJS frontend with Kubernetes microservice architecture.
+    - Utilized Redis Pubsub to buffer the request traffic from limited GPU resources. 
+    - Integrated the product into the existing DICOM system (medical image storage) seamlessly.
 
-- #### Oakda inc., Taipei City, Taiwan
+  - Refactor existing NodeJS backend and integrated TypeScript to improve the maintainability of the codebase.
 
-  ###### Data Scientist Internship
+  - Automated infrastructure provisioning in GCP with Terraform, setup complex environments within minutes.
+
+  - Optimized and benchmarked MongoDB queries and resource usage for deployments.
+  
+  - Developed real-time web administration system's frontend using gRPC streaming.
+  
+  - Led a 4-person medical device app team based on Flutter, designed application architecture, API schema, and native platform (Android/iOS) communications. Implemented an off-line cache system for synchronizing data between devices and server.
+
+- #### Oakda Inc., Taipei City, Taiwan
+
+  ###### Data Scientist Intern
 
   ###### JAN 2018 - MAR 2019
 
-  - Successfully developed an investment strategy by implementing DTW algorithms.
+  - Successfully developed an investment strategy by implementing dynamic time warping algorithms in C++, and imported in Python as a C-extension. 
 
-  - Crawled data from websites and analyzed data using various statistical approaches to provide insights. 
+  - Crawled data from websites and analyzed it using various statistical approaches to provide insights. 
 
 - #### Fortune High Investment Group Co., Ltd., ShenZhen City, China
 
@@ -55,14 +62,13 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 
   ###### JUL 2018 - AUG 2018
 
-  - Designed an ID card recognition application and deployed it to a web server.
+  - Designed an ID card recognition application and deployed it to a Flask web server.
 
 - #### Biomedical Optical Spectroscopy and Imaging Lab, Taipei City, Taiwan
   ###### Research Assistant
   ###### SEP 2017 - AUG 2019
-  - Designed Monte Carlo models for simulating photon movement.
-  - Implemented machine learning models to predict cancer grade.
-  - Utilized parallel programming via CUDA (C++) to facilitate the efficiency of computing.
+  - Designed Monte Carlo models in CUDA/C++ for simulating photon movement.
+  - Implemented machine learning models in Pytorch to predict cancer grade.
 
 ---
 
@@ -84,7 +90,7 @@ Everything is a leaky abstraction, learn the knowledge under the hood so you don
 - #### Backend / Infrastructure
 
   - Container: Docker | Kubernetes | Helm | Skaffold 
-  - CI: 	    Github action | Drone CI
+  - CI: Github action | Drone CI
   - Cloud Provider: GCP
 
 - #### Language
