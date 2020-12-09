@@ -8,7 +8,7 @@ url: "/author/"
 image: "https://avatars1.githubusercontent.com/u/10098539?s=460&u=500ba6c81b8dad7fa59e5221ae10df6e77529ccd&v=4"
 ---
 
-Everything is a leaky abstraction, learn the knowledge under the hood so you don'y panic when things go wrong.
+Everything is a leaky abstraction, learn the knowledge under the hood so you don't panic when things go wrong.
 
 ---
 
