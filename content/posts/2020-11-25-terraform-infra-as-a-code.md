@@ -48,7 +48,7 @@ First you have to specify `google` as a provider in `provider` block. You have t
 
 **Note**
 
-1. Multiple providers are not allowed. You can have only one provider in a project i.e., a directory, or you will get `Error: Duplicate required providers configuration`.
+1. Multiple `required_providers` are not allowed. You can have only one provider in a project i.e., a directory, or you will get `Error: Duplicate required providers configuration`.
 2. Carefully grant your credential. Or you will have terraform to create something it does not have permission to. Such as creating network: `Error: Error creating Network: googleapi: Error 403: Required 'compute.networks.create' permission for 'projects/xxxxx/global/networks/terraform-network', forbidden`.
 
 ```
