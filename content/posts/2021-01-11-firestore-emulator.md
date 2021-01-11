@@ -52,7 +52,7 @@ await client.collection('col').doc('doc').set({ field: 'value' });
 
 When you are running multiple transactions on emulator and causing dead lock, firestore emulator needs more time to abort transaction and retry, it could take 30 second or more. For more details, see [#2452](https://github.com/firebase/firebase-tools/issues/2452), [#2604](https://github.com/googleapis/google-cloud-go/issues/2604).
 
-So if you are running emulator for unittesting, make sure you set the timeout high enough to let the test pass. If you are using `mocha`, it should something like this:
+So if you are running emulator for unittesting, make sure you set the timeout high enough to let the test pass. If you are using `mocha`, it should look something like this:
 ```bash
 mocha \
     --timeout=60000 \
