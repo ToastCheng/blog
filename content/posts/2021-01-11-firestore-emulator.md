@@ -5,7 +5,12 @@ tags: [note, firestore, emulator]
 categories: technique
 ---
 
+If you are developing with Firestore, thanks to its complex functionalities, its hard to mock for testing.
+Even there is some existing mock library, they are still missing some apis, such as `CollectionGroup`.
 
+Fortunately, there is an [official emulator](https://firebase.google.com/docs/emulator-suite/connect_firestore) that aims to solve the problem.
+
+Although you can use it with [gcloud command](https://cloud.google.com/sdk/gcloud/reference/beta/emulators/firestore/start), I found out that leverraging docker is must faster and cleaner across local and ci environments.
 There is an existing docker image [firestore-emulator](https://hub.docker.com/r/mtlynch/firestore-emulator/dockerfile), that can spinup the firestore emulator, just run:
 ```
 docker run \
