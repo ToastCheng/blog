@@ -132,24 +132,26 @@ embedded system 統計一下 memory 使用情況
                      [ AP ]
                        |
                      malloc()               user mode
+                       |
+                       v
 --------------------------------------------------------
                        | brk() / mmap()     kernel mode
-                       |
+                       v
 vmalloc() ->    [ memory mapping ] -----------------\
 physically 不連續       |                            |
 logically 連續          | 小 memory                  |
                        |                            |
                        | kmalloc() /                |
                        | kmem_cache_alloc()         |
-                       |                            |
+                       v                            |
                 [ Slab Allocator ]                  | 大 memory
                        | _alloc_pages() /           |
                        | kmem_getpages()            |
-                       |                            |
+                       v                            |
                 [ Buddy System ] <------------------/
                        |
                        |
-                       |
+                       v
                 [      Zone       ]
                 [ Physical page   ]
                 [ Physical memory ]
